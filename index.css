@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow: hidden;
+}
+.contenedores-principal{
+    width: 100%;
+    height: 99.2vh;
+    position: relative;
+}
+#mivideo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+nav {
+    position: absolute;
+    bottom: 0;
+}
+.sombra{
+    position:absolute;
+width: 100%;
+height: 100%;
+top:0;
+left: 0;
+background-color: rgb(0,0,0,0.7);
+overflow: hidden;
+}
+
+.boton{
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+          text-align:center;
+          text-decoration: none;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    display:inline-block;
+          color: #FFF;
+          background: #7F8C8D;
+          padding: 7px 20px;
+          white-space: nowrap;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          border-radius: 100px;
+          margin: 10px 5px;
+          -webkit-transition: all 0.2s ease-in-out;
+          -ms-transition: all 0.2s ease-in-out;
+          -moz-transition: all 0.2s ease-in-out;
+          -o-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+}
+ .rojo{
+    background-color: transparent;
+    border: 1px solid rgb(205, 37, 25);
+    display: flex;
+    justify-content: space-between;
+    font-family: "Abril Fatface", serif;
+ }
+ .rojo:hover{
+    background: #ef2210;
+  }
+  
+  .rojo:active{
+    box-shadow: 0px 2px 0px 0px #C0392B;
+  }
+
+  li{
+margin: 0 15px;
+  }
+.inferior{
+    display: flex !important;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    bottom: -100px;
+    transition: all 1s ease-in-out ;
+
+}
+.lista-inferior{
+    display: flex;
+    list-style: none;
+}
+.logo{
+    position: absolute;
+    top:0;
+    left: 20px;
+    font-family:"Lobster", sans-serif;
+}
+h1{
+ color: #b72315;
+}
+.title{
+    position: absolute;
+    text-align: center;
+    top:50%;
+    left:35%;
+ }
+ .title-2{
+    color: rgb(255, 232, 201); 
+  font-family: "Calistoga", serif;
+ }
+
+ .icons{
+    margin:  0px 0px 5px;
+    padding:  11px;
+    display: flex;
+    flex-direction: column;
+}
+.cajita {
+    background:none;
+    color: #C0392B;
+    position: absolute;
+  bottom: -100px;
+    right: 0px;
+    transition: all 1s ease-in-out;
+    transform: rotate(-90deg);
+    transform-origin: bottom left;
+}
+
+.boton-icons{
+    background-color:transparent;
+    white-space: nowrap;
+    -webkit-transition: all 0.2s ease-in-out ;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 11px;
+    border: 1px solid rgb(252, 45, 45);
+    border-radius: 30px;
+    padding: 1px 1px 1px 1px;
+    color: #b72315;
+    height: 54px;
+    width:54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .boton-icons:hover{
+    background: #b72315;
+ }
+
+

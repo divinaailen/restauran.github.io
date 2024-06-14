@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+    position: absolute;
+    bottom: 0;
+}
+.logo{
+    position: absolute;
+    top:0;
+    left: 20px;
+    font-family:"Lobster", sans-serif;
+}
+h1{
+    color: #b72315;
+}
+
+
+
+.white{
+  color: #FFF;
+}
+.imgen{
+  margin: 0%;
+}
+.main-tarjetas{
+    display:flex;
+     width:100%;
+     flex-wrap: wrap;
+     justify-content: center;
+  }
+.tarjetas{
+    border: 1px solid crimson;
+    border-radius: 25px 25px 25px 25px;
+    text-align: center;
+    display: flex;
+    margin: 20px;
+    transition: all 0.2s ease;
+
+}
+.containerr{
+  background-color: #b22222;    
+  display: flex;
+  justify-content: center;
+  align-items:center;  
+  font-family:"DM Serif Display", serif;
+  color: #FFF;
+}
+
+  .boton{
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+          text-align:center;
+          text-decoration: none;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    display:inline-block;
+          color: #FFF;
+          background: #ffc69e;
+          padding: 7px 20px;
+          white-space: nowrap;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          border-radius: 100px;
+          margin: 10px 5px;
+          -webkit-transition: all 0.2s ease-in-out;
+          -ms-transition: all 0.2s ease-in-out;
+          -moz-transition: all 0.2s ease-in-out;
+          -o-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+}
+
+ .rojo{
+    background-color: #b22222;
+    box-shadow: 0px 2px 0px 0px #ff3232;;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Abril Fatface", serif;
+ }
+ .rojo:hover{
+    background: #ff5242;
+  }
+  
+  .rojo:active{
+    box-shadow: 0px 2px 0px 0px #C0392B;
+  }
+  body{
+    background-color: rgb(230, 209, 182); 
+    padding: 0;
+    box-sizing: border-box;
+  }.sombra{
+width: 100%;
+height: 100%;
+top:0;
+left: 0;
+background-color: rgba(236, 233, 233, 0.7);
+}
+.imgt{
+  border-radius: 25px;
+  text-align: center;
+}
+.inferior{
+  position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.lista-inferior{
+  position: absolute;
+  position: relative;
+  display: flex;
+list-style: none;
+}
+
+.tarjetas:hover{ 
+  transform: scale(1.1);
+}
