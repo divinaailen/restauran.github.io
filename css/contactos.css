@@ -175,7 +175,7 @@ color: #ac2929;
   border-radius: 0.4rem;
 }
 .sexy-butt:hover::before {
-  box-shadow: -1px 0 5px 1px rgba(0, 0, 0, 20%) inset;
+  box-shadow: -1px 0 5px 1px rgba(192, 3, 3, 0.2) inset;
 }
 
 .sexy-butt:active {
@@ -183,7 +183,7 @@ color: #ac2929;
 }
 
 .sexy-butt:active::before {
-  background-color: rgba(0, 0, 0, 5%);
+  background-color: rgba(255, 0, 0, 0.05);
 }
 .white{
   color: #FFF;
